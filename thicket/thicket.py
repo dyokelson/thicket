@@ -399,7 +399,6 @@ class Thicket(GraphFrame):
     def reader_dispatch(
         func, intersection, fill_perfdata, disable_tqdm, *args, **kwargs
     ):
-
         """Create a thicket from a list, directory of files, or a single file.
 
         Arguments:
